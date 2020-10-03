@@ -1,0 +1,43 @@
+.navbar-brand>img
+{
+    max-height: 100;
+}
+.navbar-brand
+{
+    background-color: 22405B;
+}
+
+.nav{
+    float: rigth;
+}
+
+.nav_button{
+    text-decoration: none;
+    color: white;
+    border-radius: 24px;
+    font-size:25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Helvetica, sans-serif;
+    margin: 15px;
+}
+
+#nv1{
+    background-color: FF1616;
+}
+#nv2{
+    background-color: FF914D;
+}
+#nv3{
+    background-color: 7ED957;
+}
+#nv4{
+    background-color: 38B6FF;
+}
+
+#nitems{
+    display: flexs;
+
+}
