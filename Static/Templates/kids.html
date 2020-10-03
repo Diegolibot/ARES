@@ -1,0 +1,114 @@
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/nav2.css">
+    <link rel="stylesheet" href="../CSS/adult.css">
+
+    <script src="../../Dynamic/JS/Libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../Dynamic/JS/Libraries/bootstrap.min.js"></script>
+    <script src="../../Dynamic/adults.js"></script>
+
+    <title>Main menu</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="../Resources/Images/Logo.jpeg" alt="ARES Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="ml-auto collapse navbar-collapse">
+            <div id="search_bar">
+                <form class="form-inline">
+                <input id="search_form" class="form-control mr-sm-2 ml-auto">
+                <button class="btn my-2 my-sm-0" type="submit"><img id="search_icon"src="../Resources/Images/Search_icon.png" alt="Search Icon"></button>
+              </form>
+            </div>
+        </div>
+        <div  class="">
+            <img id="home_icon" src="../Resources/Images/home.png" alt="Home Icon" onclick="location.href='main.html';">
+        </div>
+
+      </nav>
+
+
+      <br>
+
+
+      <div id="missions" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+
+
+        <a class="carousel-control-prev" href="#missions" role="button" data-slide="prev">
+          <img class="arr" src="../Resources/Images/arl.png">
+        </a>
+        <a class="carousel-control-next" href="#missions" role="button" data-slide="next">
+          <img class="arr" src="../Resources/Images/arr.png">
+        </a>
+      
+        <div class="carousel-inner v-2" role="listbox">
+      
+          <div class="carousel-item active">
+            <div id="content_box" class="container">
+                <div class="row">
+                    <div id="right-box " class="col box  text-center">
+                        <h1 class="boxtit">Title 1</h1>
+                        <img src="" alt="Adult img">
+                        <br>
+                        <button class="gob">GO!</button>
+                    </div>
+                    <div id="left-box" class="col box  text-center">
+                        <h1 class="boxtit">Title 2</h1>
+                        <img src="" alt="Kid img">
+                        <br>
+                        <button class="gob">GO!</button>      
+                    </div>
+                    <div id="left-box" class="col box  text-center">
+                        <h1 class="boxtit">Title 3</h1>
+                        <img src="" alt="Kid img">
+                        <br>
+                        <button class="gob">GO!</button>      
+                    </div>
+                </div>        
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div id="content_box" class="container">
+                <div class="row">
+                    <div id="right-box " class="col box  text-center">
+                        <h1 class="boxtit">Title 4</h1>
+                        <img src="" alt="Adult img">
+                        <br>
+                        <button class="gob">GO!</button>
+                    </div>
+                    <div id="left-box" class="col box  text-center">
+                        <h1 class="boxtit">Title 5</h1>
+                        <img src="" alt="Kid img">
+                        <br>
+                        <button class="gob">GO!</button>      
+                    </div>
+                    <div id="left-box" class="col box  text-center">
+                        <h1 class="boxtit">Title 6</h1>
+                        <img src="" alt="Kid img">
+                        <br>
+                        <button class="gob">GO!</button>      
+                    </div>
+                </div>        
+              </div>
+          </div>
+      
+        </div>
+      
+      </div>
+
+
+    <script src="../../Dynamic/JS/main.js"></script>
+</body>
+
+</html>

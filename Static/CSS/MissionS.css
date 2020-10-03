@@ -1,0 +1,24 @@
+body{
+    background-color: 22405B;
+}
+.gob{
+    background-color: 38B6FF;
+    margin:35px;
+    border-radius: 24px;
+    border: none;
+    padding: 5px 30%;
+    font-size: 26px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+#MissionS{
+    height: 300px;
+}
+#Jabalí{
+    height:500px;
+}
+
+.row{
+    margin: none;
+}

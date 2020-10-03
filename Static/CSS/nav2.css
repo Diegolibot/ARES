@@ -1,0 +1,41 @@
+.navbar-brand>img
+{
+    max-height: 100;
+}
+.navbar-brand
+{
+    background-color: 22405B;
+}
+
+.nav{
+    float: rigth;
+}
+#search_bar{
+    height: 50px;
+    width: 950px;
+    border-radius: 25px;
+    background-color: 7EBDE1;
+}
+
+#search_form{
+    background-color: 7EBDE1;
+    border:none;
+    width: 90%;
+    height: 100%;
+    border-radius: 26px;
+}
+
+#search_icon{
+    margin: 2px 0;
+    height: 30px;
+}
+
+#home_icon{
+    margin: 0 10px;
+    height: 35px;
+}
+
+#home_icon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
