@@ -38,6 +38,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-left: 7%;
+    color:white;
 }
 
 .clearbox{
@@ -76,6 +77,8 @@
     color: white;
     position: relative;
     bottom: 50px;
+    width: 70%;
+    text-align: center;
 }
 
 #nv1{
@@ -90,6 +93,12 @@
 #nv4{
     background-color: 38B6FF;
 }
+#yes{
+    background-color: 7ED957;
+}
+#no{
+    background-color: FF1616;
+}
 
 .optionb{
         margin: 5px 0;
@@ -98,15 +107,15 @@
         font-size: 26px;
         font-family: Helvetica, sans-serif;
         color: white;
-        width: 30%;
+        width: 60%;
         text-align: center;
-        padding: 0 11%;
+        padding: 0 20%;
 }
 .optionb:hover{
         cursor: pointer;
         color: white;
         padding: 7px 10%;
-        width: 40%;
+        width: 65%;
 }
 
 .optiontit{

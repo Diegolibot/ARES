@@ -1,0 +1,30 @@
+.TitleInfo{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.infobox{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: min-content;
+    background-image: url('../Resources/Images/TextBlob.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 7%;
+    font-size: 20px;
+    color: white;
+}
+
+.clearbox{
+    margin-bottom: none;
+}
+
+.clearbox{
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.clearbox>img{
+    width:100%;
+}
