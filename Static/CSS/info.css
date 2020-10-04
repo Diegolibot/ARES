@@ -1,0 +1,34 @@
+.infotxt{
+    white-space: pre-wrap; 
+    text-align: justify;
+    color: white;
+}
+
+.box{
+    background-color: 22639D;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.clearbox{
+    margin: 20px;
+    padding: 20px;
+}
+
+.clearbox>img{
+    width:100%;
+}
+
+.bod{
+    margin: 0 2%;
+}
+
+.TitleInfo{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.gog{
+    background-color: 7ED957;
+}

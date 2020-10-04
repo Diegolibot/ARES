@@ -1,0 +1,129 @@
+.infotxt{
+    white-space: pre-wrap;  
+    text-align: justify;
+    font-size: 25px;
+}
+
+.box{
+    background-color: 22639D;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.clearbox{
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.clearbox>img{
+    width:100%;
+}
+
+.bod{
+    margin: 0 2%;
+}
+
+.TitleInfo{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.infobox{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: min-content;
+    background-image: url('../Resources/Images/TextBlob.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 7%;
+}
+
+.clearbox{
+    margin-bottom: none;
+}
+
+.nextb{
+
+    background-color: 7ED957;
+    margin: 0 10px;
+    border-radius: 24px;
+    border: none;
+    padding: 5px 10%;
+    width: 30%;
+    font-size: 26px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.nextb:hover{
+    cursor: pointer;
+    color: white;
+    padding: 7px 10%;
+    width: 35%;
+}
+.controls{
+    
+}
+
+.imgtxti{
+    max-height: 400px;
+}
+.imgtxt{
+    background-color:  rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
+
+#nv1{
+    background-color: FF1616;
+}
+#nv2{
+    background-color: FF914D;
+}
+#nv3{
+    background-color: 7ED957;
+}
+#nv4{
+    background-color: 38B6FF;
+}
+
+.optionb{
+        margin: 5px 0;
+        border-radius: 24px;
+        border: none;
+        font-size: 26px;
+        font-family: Helvetica, sans-serif;
+        color: white;
+        width: 30%;
+        text-align: center;
+        padding: 0 11%;
+}
+.optionb:hover{
+        cursor: pointer;
+        color: white;
+        padding: 7px 10%;
+        width: 40%;
+}
+
+.optiontit{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.missionresimg{
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.boar{
+    max-height:400px;
+}
+
+.row{
+    margin: none;
+}
