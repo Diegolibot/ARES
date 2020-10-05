@@ -44,7 +44,10 @@ function missionRes(wl){
 }
 
 function end(){
-    location.href='../kids.html';
+    hideall();
+    $(".controls").hide();
+    $(".forum").show();
+    $(".infotxt").text("Do you have any other solutions?");
 }
 
 function hideall(){
@@ -54,6 +57,7 @@ function hideall(){
     $(".MissionRes").hide();
     $(".controls").show();
     $(".yesno").hide();
+    $(".forum").hide();
 }
 
 function goThroughStory(sequence){

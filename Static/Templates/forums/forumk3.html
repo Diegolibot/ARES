@@ -1,0 +1,83 @@
+l<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../../CSS/nav2.css">
+    <link rel="stylesheet" href="../../CSS/info.css">
+    <link rel="stylesheet" href="../../CSS/main.css">
+    <link rel="stylesheet" href="../../CSS/forum.css">
+
+    <script src="../../../Dynamic/JS/Libraries/jquery-3.4.1.min.js"></script>
+    <script src="../../../Dynamic/JS/Libraries/bootstrap.min.js"></script>
+
+
+    <title>Main menu</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="../../Resources/Images/Logo.jpeg" alt="ARES Logo"></a>
+
+        <div class="ml-auto collapse navbar-collapse">
+            <div id="search_bar">
+                <form class="form-inline">
+                <input id="search_form" class="form-control mr-sm-2 ml-auto">
+                <button class="btn my-2 my-sm-0" type="submit"><img id="search_icon"src="../../Resources/Images/Search_icon.png" alt="Search Icon"></button>
+                </form>
+            </div>
+        </div>
+        <div  class="">
+            <img id="home_icon" src="../../Resources/Images/home.png" alt="Home Icon" onclick="location.href='../main.html';">
+        </div>
+
+      </nav>
+
+      <div class="bod">
+        <div class="row">
+            <h1 class="TitleInfo" style="margin-left:5%; margin-top: 7%; margin-right: 5%; text-align: center;">Sally the satelite got lost, Eros needed her to be on time in order to send compiled information to mars. How could Eros help her be more punctual?</h1>
+        </div>
+
+        <br>
+
+        <div class="row text">
+          <form class="text">
+          <input style="width:100%;" type="text" class="form-control inputans">
+          </form>
+        </div>
+
+        <div class="row" >
+          <div class="col text-center clearbox">
+            <div class="gob buttonans">SEND</div>
+          </div>
+          <div class="col text-center clearbox">
+            <button class="gob" style="background-color:#7ed957;" onclick="location.href='../forum.html';">FORUM</button>
+          </div>
+        </div>
+
+        <div class="row">
+            <h2 class="col text-center anstit">ANSWERS</h2>
+        </div>
+
+        <div class="anscontainer">
+            <div class="row">
+                <div class="col ansblock text-center">This is an answer.</div>
+            </div>
+
+        </div>
+        
+
+       </div>
+       <script src="../../../Dynamic/JS/forum.js"></script>
+       <script>
+        var answers =["I think we should give him a map or a GPS, so she doesn't get lost.","It is a good idea to map the way, just like Hansel and Gretel when they used breadcrumbs","What if the  other satellites take care of her, so that if she doesn't remember to stay in orbit, the others help her get back.","What if we change her job to an easier one?"];
+        refresh();
+      </script>
+
+</body>
+
+</html>

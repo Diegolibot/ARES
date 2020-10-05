@@ -12,7 +12,7 @@ function start(){
         ["boarspeechrepeat","winkingboar","Okay, let's go",8],
         ["boarspeech", "blushingboardown", "Remember that dust storms are formed due to the strong winds on Mars, which lift the sand from the ground by several meters. These can last a long time, during which the Sun's rays cannot reach the surface to recharge our communication devices."],
         ["boarspeech", "questioningboar", "What’s the best thing we can do in this situation?"],
-        ["options","What’s the best thing we can do in this situation?","Let Robert the rover on.","Talk to Robert with a walkie talkie and comfort him.","Set Robert the rover to sleep mode.", "Get a new rover.","nv3",11,14],
+        ["options","What’s the best thing we can do in this situation?","Let Robert the rover on.","Talk to Robert with a walkie talkie and comfort him.","Set Robert the rover to sleep mode.", "Get a new rover.","nv3",11,16],
         ["missionRes","win"],
         ["boarspeech", "blushingboararms", "The correct answer was 'Set Robert the rover to sleep mode.' By doing this, Robert saves his energy and uses it solely on his mission watch, which will wake him up when the storm passes, preventing him from being partial or completely damaged. Robert cannot be recharged because the dust clouds from the storm are so thick that they block the Sun's rays that Robert uses to power his batteries."],
         ["imgtext", "duststorm.jpg","This story was inspired by NASA’s Opportunity rover. The Opportunity rover stopped communicating with Earth when a severe Mars-wide dust storm blanketed its location in June 2018. The rover recovery efforts are concluded and the Opportunity mission is complete."],

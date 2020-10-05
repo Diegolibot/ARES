@@ -136,3 +136,14 @@
 .row{
     margin: none;
 }
+
+.forumb{
+    background-color: 38B6FF;
+    margin-bottom: 20px;
+}
+
+.exitb{
+    background-color: FF1616;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}

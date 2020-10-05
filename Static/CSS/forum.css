@@ -1,0 +1,32 @@
+.text{
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  height: 40%;
+}
+
+.ansblock{
+  width: 100%;
+  border-radius: 26px;
+  background-color: 7EBDE1;
+  min-height: 60px;
+  margin: 20px 10px;
+  padding: 5px;
+  white-space: pre-wrap;  
+  text-align: center;
+}
+
+.anstit{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.inputans{
+
+  border-radius: 26px;
+  background-color:#D4EFFF;
+  margin-left:auto;
+  margin-right: auto; 
+  text-align: center; 
+  height: 100%;
+}
